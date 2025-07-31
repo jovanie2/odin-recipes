@@ -1,0 +1,1 @@
+My project will be informing you of some of my favorite recipes and how to make them. IN creating this project, I will be demonstrating the use of the various elements learned thus far in the course.
