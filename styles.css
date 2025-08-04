@@ -1,0 +1,30 @@
+*, *::before, *::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #FAF7F3;
+}
+
+.main-title{
+    margin-top: 300px;
+    margin-bottom: 80px;
+    text-decoration: underline 4px;
+    text-decoration-color: #FE7743;
+}
+
+body ul li{
+    display: inline-block;
+    background-color: #FE7743;
+    padding:20px 30px;
+    margin: 0 8px;;
+}
+
+body ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
