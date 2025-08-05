@@ -10,21 +10,64 @@ body{
 }
 
 .main-title{
-    margin-top: 300px;
-    margin-bottom: 80px;
+    margin: 300px 0 80px;
     text-decoration: underline 4px;
     text-decoration-color: #FE7743;
 }
 
-body ul li{
+.recipe-nav li{
     display: inline-block;
     background-color: #FE7743;
     padding:20px 30px;
-    margin: 0 8px;;
+    margin: 0 8px;
 }
 
-body ul li a{
+.recipe-nav li a{
     color: #000000;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+.recipe-dish a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #FE7743;
+    padding:20px 30px;
+    display: inline-block;
+    margin: 40px;
+}
+
+.recipe-dish h1{
+    margin: 20px;
+    text-decoration: underline 4px;
+    text-decoration-color: #FE7743;
+}
+
+.recipe-dish h2{
+    text-decoration: underline 4px;
+    text-decoration-color: #FE7743;
+    margin: 5px;
+}
+
+.recipe-dish img{
+    margin-bottom: 20px;
+}
+
+.recipe-dish h3{
+    text-align: left;
+    text-decoration: underline 4px;
+    text-decoration-color: #FE7743;
+    margin: 20px 0;
+}
+.recipe-dish ul, .recipe-dish ol{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.recipe-dish ul li, .recipe-dish ol li{
+    line-height: 1.5rem;
+}
+p, li{
+    font-size: 1.3rem;
 }
